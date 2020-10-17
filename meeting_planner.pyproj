@@ -32,6 +32,7 @@
     <Compile Include="website\migrations\__init__.py" />
     <Compile Include="website\models.py" />
     <Compile Include="website\tests.py" />
+    <Compile Include="website\urls.py" />
     <Compile Include="website\views.py" />
     <Compile Include="website\__init__.py" />
   </ItemGroup>
