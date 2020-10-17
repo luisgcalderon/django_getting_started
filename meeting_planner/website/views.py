@@ -8,3 +8,7 @@ def welcome(request):
 
 def date(request):
     return HttpResponse("This page was served at " + str(datetime.now()))
+
+def about(request):
+    msg = "Mi nombre es Luis Calderon, tengo muchos años y soy programador"
+    return HttpResponse(msg)
