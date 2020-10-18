@@ -128,3 +128,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 /.vs/meeting_planner/v16
+/meeting_planner/meeting_planner/secrets.json
