@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 /.vs/meeting_planner/v16
 /meeting_planner/meeting_planner/secrets.json
+/.vs
