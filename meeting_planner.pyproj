@@ -23,6 +23,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="manage.py" />
+    <Compile Include="meetings\admin.py" />
+    <Compile Include="meetings\apps.py" />
+    <Compile Include="meetings\migrations\__init__.py" />
+    <Compile Include="meetings\models.py" />
+    <Compile Include="meetings\views.py" />
+    <Compile Include="meetings\__init__.py" />
     <Compile Include="meeting_planner\asgi.py" />
     <Compile Include="meeting_planner\settings.py" />
     <Compile Include="meeting_planner\urls.py" />
@@ -32,12 +38,15 @@
     <Compile Include="website\apps.py" />
     <Compile Include="website\migrations\__init__.py" />
     <Compile Include="website\models.py" />
-    <Compile Include="website\tests.py" />
     <Compile Include="website\urls.py" />
     <Compile Include="website\views.py" />
     <Compile Include="website\__init__.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="meetings\" />
+    <Folder Include="meetings\migrations\" />
+    <Folder Include="meetings\templates\" />
+    <Folder Include="meetings\templates\meetings\" />
     <Folder Include="meeting_planner" />
     <Folder Include="website\" />
     <Folder Include="website\migrations\" />
@@ -65,6 +74,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="meetings\templates\meetings\index.html" />
     <Content Include="website\templates\website\index.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
