@@ -27,6 +27,7 @@
     <Compile Include="meetings\apps.py" />
     <Compile Include="meetings\migrations\__init__.py" />
     <Compile Include="meetings\models.py" />
+    <Compile Include="meetings\urls.py" />
     <Compile Include="meetings\views.py" />
     <Compile Include="meetings\__init__.py" />
     <Compile Include="meeting_planner\asgi.py" />
@@ -74,7 +75,7 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="meetings\templates\meetings\index.html" />
+    <Content Include="meetings\templates\meetings\detail.html" />
     <Content Include="website\templates\website\welcome.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
