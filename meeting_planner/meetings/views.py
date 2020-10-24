@@ -8,6 +8,13 @@ def detail(request, id):
     return render(request, "meetings/detail.html", {"meeting": meeting})
 
 # Please add a nre page that shows a list of all room objects
-def rooms(request):
+# Just text, no links)
+
+# Create a:
+# - view
+# - template
+# - url mapping
+
+def rooms_list(request):
     rooms = Room.objects.all()
-    return render(request, "meetings/room.html", rooms)
+    return render(request, "meetings/rooms_list.html", {"rooms":rooms})

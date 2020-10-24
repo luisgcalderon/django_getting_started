@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="meetings\templates\meetings\detail.html" />
+    <Content Include="meetings\templates\meetings\rooms_list.html" />
     <Content Include="website\templates\website\welcome.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
