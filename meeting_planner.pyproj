@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="meetings\templates\meetings\detail.html" />
+    <Content Include="meetings\templates\meetings\new.html" />
     <Content Include="meetings\templates\meetings\rooms_list.html" />
     <Content Include="website\static\website\meeting.jpg" />
     <Content Include="website\static\website\style.css" />
