@@ -51,6 +51,8 @@
     <Folder Include="meeting_planner" />
     <Folder Include="website\" />
     <Folder Include="website\migrations\" />
+    <Folder Include="website\static\" />
+    <Folder Include="website\static\website\" />
     <Folder Include="website\templates\" />
     <Folder Include="website\templates\website\" />
   </ItemGroup>
@@ -77,6 +79,9 @@
   <ItemGroup>
     <Content Include="meetings\templates\meetings\detail.html" />
     <Content Include="meetings\templates\meetings\rooms_list.html" />
+    <Content Include="website\static\website\meeting.jpg" />
+    <Content Include="website\static\website\style.css" />
+    <Content Include="website\templates\base.html" />
     <Content Include="website\templates\website\welcome.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />

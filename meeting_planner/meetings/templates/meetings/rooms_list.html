@@ -1,15 +1,13 @@
-﻿<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <title>List of Rooms available</title>
-</head>
-<body>
+﻿{% extends "base.html" %}
+
+
+{% block title %}List of Rooms available{% endblock %}
+{% block content %}
+
     <h1> List of Rooms available</h1>
     <ul>
         {% for room in rooms %}
         <li>{{ room.name }} at number {{room.room_number}} in floor {{ room.floor }} </li>
         {% endfor %}
     </ul>
-
-</body>
-</html>
+{% endblock %}
